@@ -12,7 +12,7 @@ pipeline{
     }
     stage('Upload to AWS'){
       steps {
-          withAWS(region:'sa-east-1',credentials:'jenkins') {
+          withAWS(region:'sa-east-1',credentials:'Jenkins') {
             s3Upload(pathStyleAccessEnabled:true, payloadSigningEnabled: true, file:'index.html', bucket:'fabiotavarespr-udacity')
           }
         }
