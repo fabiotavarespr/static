@@ -1,4 +1,3 @@
-# static
 # Udacity - Cloud DevOps Engineer - Project 3
 
 Codes written in [Udacity's Cloud DevOps Engineer Nanodegree Course](https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991).
